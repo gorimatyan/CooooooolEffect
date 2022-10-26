@@ -47,7 +47,7 @@ body {
   rotate: 0deg; /* レーザーの角度を指定 */
 
   animation-name: changeSize;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
 }
 @keyframes changeSize {
@@ -62,7 +62,7 @@ body {
     );
   }
   10% {
-    height: 20px;
+    height: 15px;
     width: 700%; /* レーザーの長さを指定(100%の方も同値にする必要あり) */
     background: radial-gradient(
       rgb(255, 231, 255) 35%,
