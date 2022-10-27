@@ -54,7 +54,7 @@ body {
   0% {
     height: 5px;
     transform: translate(-700px, 0px); /* レーザーの開始位置を指定 */
-    background: radial-gradient( /* ここの色は0%に移動すべきかも*/
+    background: radial-gradient(
     rgba(255, 231, 255, 1) 35%,
     rgba(136, 81, 255, 1) 50%,
     rgba(136, 81, 255, 0) 70%,
