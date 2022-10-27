@@ -49,7 +49,7 @@
       background: transparent;
     }
   }
-  .flash {
+  .laser {
     width: 1px;
     height: 1px;
     rotate: 0deg; /* レーザーの角度を指定 */
@@ -58,7 +58,7 @@
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
   }
-  .flash2 {
+  .laser2 {
     position: absolute;
     width: 1px;
     height: 1px;

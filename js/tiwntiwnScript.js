@@ -4,16 +4,16 @@ const circle = document.querySelector(".circles li div")
 const background = document.getElementById("background")
 const background2 = document.getElementById("background2")
 const reBackground2 = document.getElementById("reBackground2")
-const flash = document.getElementById("flash")
-const flash2 = document.getElementById("flash2")
+const laser = document.getElementById("laser")
+const laser2 = document.getElementById("laser2")
 
 img.addEventListener("click", (ev) => {
     // ev.target.style.display = "none"
     ev.target.classList.add("delete")
     background.classList.add("background")
     background2.classList.add("background2")
-    flash.classList.add("flash")
-    flash2.classList.add("flash2")
+    laser.classList.add("laser")
+    laser2.classList.add("laser2")
     setTimeout(() => {
         reBackground2.classList.add("background2")
     },50)

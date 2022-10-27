@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.flash {
+.laser {
   transform: translate(0px,0px);  /* キラリンチョさせる場所を指定 */
   width: 1px;
   height: 1px;

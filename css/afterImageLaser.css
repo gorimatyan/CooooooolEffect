@@ -41,7 +41,7 @@
       background: transparent;
     }
   }
-  .flash {
+  .laser {
     width: 1px;
     height: 1px;
     rotate: 0deg; /* レーザーの角度を指定 */
