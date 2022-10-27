@@ -24,11 +24,11 @@ body {
     rgba(136, 81, 255, 0) 70%,
     transparent 100%
   );
-  animation-name: changeSize;
+  animation-name: laserEffect;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
-@keyframes changeSize {
+@keyframes laserEffect {
   0% {
     height: 5px;
     transform: translate(-700px,0px); /* レーザーの開始位置を指定 */
